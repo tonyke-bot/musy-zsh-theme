@@ -14,7 +14,7 @@ GIT_DIRTY_COLOR=$FG[133]
 GIT_CLEAN_COLOR=$FG[118]
 GIT_PROMPT_INFO=$FG[012]
 
-PROMPT='%{$PROMPT_USERNAME_COLOR%}%n%{$reset_color%} @ %{$PROMPT_HOSTNAME_COLOR%}%m%{$reset_color%} :: %{$PROMPT_SUCCESS_COLOR%}%~%{$reset_color%}%{$GIT_PROMPT_INFO%}$(git_prompt_info) %{$PROMPT_PROMPT%}$ret_status %{$reset_color%}'
+PROMPT=':: %{$PROMPT_SUCCESS_COLOR%}%~%{$reset_color%}%{$GIT_PROMPT_INFO%}$(git_prompt_info) %{$PROMPT_PROMPT%}$ret_status %{$reset_color%}'
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" ("
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$GIT_PROMPT_INFO%})"
